@@ -1,19 +1,22 @@
 # Blazor Tutorial App
 
-Интерактивное веб-приложение на **Blazor Web App (.NET 9 / .NET 10)** с режимом рендеринга InteractiveServer.
+An interactive web application built with **Blazor Web App (.NET 9 / .NET 10)** using InteractiveServer render mode.
 
-## 🚀 Возможности
-- **Todo List (/todo)**: добавление задач, отметка о выполнении, динамический счетчик оставшихся задач и двухсторонняя привязка данных (@bind).
-- **Counter (/counter)**: интерактивный компонент счетчика с поддержкой параметра шага инкремента IncrementAmount.
-- **Weather (/weather)**: таблица прогноза погоды.
-- **Главная страница (/)** и навигационное меню (NavMenu).
+## 🚀 Features
+- **Todo List (/todo)**: add todo items, toggle completion status, live remaining item counter, and two-way data binding (@bind).
+- **Counter (/counter)**: interactive counter component supporting the IncrementAmount parameter.
+- **Weather (/weather)**: sample weather forecast table.
+- **Home Page (/)** and responsive navigation menu (NavMenu).
 
-## 🛠 Запуск проекта
+## 🛠 Getting Started
 
-1. Убедитесь, что установлен .NET SDK 9.0 или выше.
-2. Выполните в терминале:
+### Prerequisites
+- [.NET SDK](https://dotnet.microsoft.com/download) (version 9.0 or 10.0).
+
+### Run the Application
+1. Restore dependencies and run:
    `ash
    dotnet restore
    dotnet run
    `
-3. Откройте адрес в браузере (по умолчанию https://localhost:7xxx или http://localhost:5xxx), указанный в выводе консоли.
+2. Open the URL shown in the console (typically http://localhost:5229 or https://localhost:7106) in your browser.
