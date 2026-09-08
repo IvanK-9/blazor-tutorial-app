@@ -6,9 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
-// Учим Blazor-клиент отправлять запросы на порт нашего сервера TodoApi
-builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:5014") });
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
